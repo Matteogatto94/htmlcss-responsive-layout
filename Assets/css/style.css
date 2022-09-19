@@ -15,7 +15,7 @@ img {
 }
 
 .container {
-    max-width: 70%;
+    max-width: 1180px;
     margin: auto;
 }
 
@@ -254,5 +254,43 @@ header span {
     background-color: var(--bg-second-section);
     border-radius: 100%;
     padding: 1rem;
+}
+
+.intro_expert {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.intro_expert h2 {
+    color: var(--bg-second-section);
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+
+.intro_expert p {
+    font-size: 1.5rem;
+}
+
+.card {
+    padding: 3rem;
+    margin-top: 2rem;
+    background-color: var(--bg-second-section);
+    border-radius: 2rem;
+    display: flex;
+}
+
+.size_img {
+    width: 250px;
+    border-radius: 150%;
+}
+
+.info_card {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    color: white;
+}
+
+.info_card h4 {
+    margin-top: 2rem;
 }
 /* #endregion body */
