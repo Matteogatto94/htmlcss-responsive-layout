@@ -15,7 +15,7 @@ img {
 }
 
 .container {
-    width: 80%;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -32,6 +32,14 @@ img {
 .d_flex {
     display: flex;
     justify-content: space-between;
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
 }
 /* #endregion common rules */
 
@@ -109,10 +117,142 @@ span {
         display: contents;
     }
     
-span {
+header span {
         padding: 1.5rem;
     }
+
+.mq_col_8 {
+    width: calc(100% / 12 * 8)
+}  
+
+.mq_col_4 {
+    width: calc(100% / 12 * 4)
+} 
+
 
 }
 
 /* #endregion responsive rules */
+
+/* #region body */
+
+.demo_application {
+    margin-top: 2rem;
+}
+
+.bg_first_section {
+    background-color: var(--bg-first-section);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    
+}
+
+.title_section {
+    padding: 1rem 0;
+}
+
+.infos h2 ,
+.right_col h2 ,
+.center_col h2 {
+    color: var(--bg-header);
+    padding: 1rem 1rem;
+    
+}
+
+
+
+.infos p,
+.right_col p,
+.center_col p {
+    color: var(--text-first-section);
+    line-height: 1.5rem;
+    padding: 2rem 1rem;
+}
+
+
+
+
+.btn_apple {
+    padding: 0.5rem 3rem; 
+    background-color: var(--bg-header);
+    color: white;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.icon {
+    color: var(--bg-header);
+    font-size: 4rem;
+}
+
+.text_center {
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.center_col {
+    text-align: center;
+}
+
+.row {
+    padding: 1rem;
+}
+
+.left_col {
+    margin-left: 1rem;
+}
+
+.strategic_1 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+.strategic_planning {
+    margin-top: 6rem;
+    background-color: var(--bg-second-section);
+}
+
+.strategic_info p {
+    color: white;
+    padding: 2rem;
+}
+
+.strategic_info h2 {
+    color: white;
+    padding: 2rem;
+}
+
+.planning_right_text {
+    text-align: center;
+    padding: 1rem;
+}
+
+.planning_right_text p {
+    padding: 2rem;
+    line-height: 2rem;
+}
+
+.planning_right_text h2 {
+    padding: 1rem;
+}
+
+.planning_right {
+    background-color: white;
+    border-radius: 3rem;
+    margin-top: 10rem;
+    padding: 5rem 3rem;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+.arrow_down {
+    background-color: var(--bg-second-section);
+    border-radius: 100%;
+    padding: 1rem;
+}
+/* #endregion body */
