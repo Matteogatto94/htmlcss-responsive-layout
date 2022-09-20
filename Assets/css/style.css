@@ -136,8 +136,16 @@ header span {
 
 /* #region body */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .demo_application {
     margin-top: 2rem;
+}
+
+.phone_img {
+    max-width: 300px;
 }
 
 .bg_first_section {
@@ -243,7 +251,7 @@ header span {
 .planning_right {
     background-color: white;
     border-radius: 3rem;
-    margin-top: 10rem;
+    margin-top: 15rem;
     padding: 5rem 3rem;
     margin-left: 2rem;
     padding-bottom: 1rem;
@@ -293,4 +301,50 @@ header span {
 .info_card h4 {
     margin-top: 2rem;
 }
+
+.work_with_us {
+    background-color: var(--bg-second-section);
+    margin-top: 4rem;
+    padding: 5rem 7rem;
+}
+
+.work_with_us h2 {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.card_withus {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 4rem 3rem;
+}
+
+.card_withus h2,
+.card_withus h3 {
+    color: var(--bg-second-section);
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.card_withus h2 {
+    font-size: 4rem;
+}
+
+.card_withus p {
+    line-height: 2rem;
+    padding: 3rem 0;
+}
+
+.btn_more {
+    background-color: var(--bg-second-section);
+    border-radius: 2rem;
+    padding: 1rem 3.5rem;
+    color: white;
+}
+
+.gap {
+    gap: 1rem;
+}
+
 /* #endregion body */
