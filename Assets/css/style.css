@@ -401,4 +401,48 @@ body {
 .about_us_right {
     position: relative;
 }
+
+.its_free {
+    background-color: var(--bg-second-section);
+    color: white;
+    text-align: center;
+    padding: 4rem;
+}
+
+
+.simple {
+    color: white;
+}
+
+.free {
+    color: var(--its-free);
+    font-size: 2rem;
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+.simple {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.free_1 {
+    padding: 4rem;
+}
+
+.btn_started {
+    color: var(--bg-second-section);
+    background-color: white;
+    padding: 2rem 5rem;
+    border-radius: 3rem;
+}
+
+.credits{
+    padding: 5rem;
+}
+
+.under_line {
+    text-decoration: underline;
+}
 /* #endregion body */
