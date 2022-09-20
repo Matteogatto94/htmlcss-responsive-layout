@@ -157,6 +157,7 @@ span {
 }
 
 
+
 }
 
 
@@ -345,7 +346,7 @@ body {
 .card_withus {
     background-color: white;
     border-radius: 2rem;
-    padding: 4rem 3rem;
+    padding: 2.5rem 1.5rem;
 }
 
 .card_withus h2,
