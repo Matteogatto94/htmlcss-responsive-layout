@@ -94,6 +94,54 @@ a.btn {
 
 /* #region responsive rules */
 
+@media screen and (max-width: 768px) {
+   
+    .menu_right {
+            display: none;
+        }
+        
+    .menu {
+            display: contents;
+        }
+        
+    header span {
+            padding: 1.5rem;
+        }
+    .container {
+        max-width: 730px;
+        margin: auto;
+    }
+    
+    .first_card {
+        display: block;
+    }
+    
+    .phone_img {
+        object-fit:cover;
+        margin-top: 3rem;
+        margin-bottom: -0.25rem;
+    }
+    
+    .strategic_planning .row {
+        display: inline-block;
+        justify-content: center;
+    }
+    
+    .strategic_planning .col-6 {
+        width: 100%;
+    }
+
+    .about_us .col-6 {
+        width: 100%;
+    }
+
+    
+    }
+    
+
+
+
+
 @media screen and (max-width: 480px) {
     
 .menu_right {
@@ -111,30 +159,6 @@ span {
 
 }
 
-@media screen and (max-width: 768px) {
-   
-.menu_right {
-        display: none;
-    }
-    
-.menu {
-        display: contents;
-    }
-    
-header span {
-        padding: 1.5rem;
-    }
-
-.mq_col_8 {
-    width: calc(100% / 12 * 8)
-}  
-
-.mq_col_4 {
-    width: calc(100% / 12 * 4)
-} 
-
-
-}
 
 /* #endregion responsive rules */
 
@@ -463,3 +487,5 @@ footer {
 .footer_credit_down {
     padding: 2rem;
 }
+
+/* #endregion footer */
