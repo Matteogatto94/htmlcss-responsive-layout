@@ -446,3 +446,20 @@ body {
     text-decoration: underline;
 }
 /* #endregion body */
+
+/* #region footer */
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+.footer_credit_up {
+    padding: 2rem;
+}
+
+.footer_credit_down {
+    padding: 2rem;
+}
