@@ -38,6 +38,10 @@ img {
     width: calc(100% / 12 * 4);
 }
 
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+
 .col-8 {
     width: calc(100% / 12 * 8);
 }
@@ -251,7 +255,7 @@ body {
 .planning_right {
     background-color: white;
     border-radius: 3rem;
-    margin-top: 15rem;
+    margin-top: 5rem;
     padding: 5rem 3rem;
     margin-left: 2rem;
     padding-bottom: 1rem;
@@ -347,4 +351,54 @@ body {
     gap: 1rem;
 }
 
+.man_aboutus {
+    max-width: 180px;
+    border-radius: 100%;
+}
+
+.about_us {
+    padding: 3rem;
+}
+
+.about_us h1 {
+    color: var(--bg-second-section);
+    font-size: 3rem;
+    padding: 1.5rem 0;
+}
+
+.about_us p {
+    padding: 1.5rem 0;
+    line-height: 2rem;
+}
+
+.about_us_right {
+    margin-left: 4rem;
+    padding: 4rem;
+}
+
+.about_us_right p {
+    color: var(--bg-second-section);
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+
+.btn_linkedin {
+    background-color: var(--bg-second-section);
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border-radius: 3rem;
+    font-weight: bold;
+}
+
+.double {
+    color: var(--bg-second-section);
+    font-size: 70px;
+    position: absolute;
+    top: 2rem;
+    left: 11rem;
+}
+
+.about_us_right {
+    position: relative;
+}
 /* #endregion body */
